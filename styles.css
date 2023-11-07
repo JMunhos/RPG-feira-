@@ -1,0 +1,519 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#body {
+    font-family: 'arcade-classic';
+    background-color: #e1d5fd;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-premium/pixel-art-jogo-fundo-grama-ceu-e-nuvens_210544-60.jpg?w=826');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #000a29;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+
+header p {
+    font-size: 18px;
+    
+}
+
+nav {
+    background-color: #2e1b5b;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #91b6ff; 
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000a29;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+#headerjogo1, #footerjogo1{
+    color: #4d68ff;
+    font-family: 'ArcadeClassic';
+}
+
+
+.jogo {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jogo h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.jogo p {
+    font-size: 16px;
+}
+
+.jogo a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.jogo a:hover {
+    background-color: #555; 
+}
+
+footer, #footer3 {
+    text-align: center;
+    background-color: #000a29;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+#iframe1{
+    position: relative; 
+    width: 760px; 
+    height: 100%; 
+    padding-top: 56.2500%;
+    padding-bottom: 0; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;   
+    width: 760px; 
+    height: 400px; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0
+}
+
+#jogo2{
+    
+    font-family : 'ArcadeClassic';                                                 
+    background-color: #2e1b5b;
+    text-align: center;
+    position: relative;
+
+}
+
+#nav2{
+    
+    font-family : 'ArcadeClassic';
+    background-color: #552cff;
+
+}
+
+#a2{
+
+    color: #f9be62;
+}
+ ul a:hover {
+    background-color: #ac3e00; 
+}
+#footer2{
+
+    font-family : 'ArcadeClassic';                                                 
+    background-color: #2e1b5b;
+}
+#pfooter{
+    
+    color: #f9be62
+}
+#emblema1 {
+    width: 110px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#p2{
+    text-align: center;
+    color: #f9be62;
+
+
+}
+#main2{
+
+    background-color: #2e1b5b;
+    
+}
+
+h2, form{
+
+    font-family : 'ArcadeClassic';
+}
+
+#tabela-pontuacao {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family : 'ArcadeClassic';
+}
+#labeljogador, #labeljogador2, #salvar-pontuacao{
+    font-family: 'ArcadeClassic';
+}
+#footer3{
+    position: sticky;
+}
+
+#tabela-pontuacao th, #tabela-pontuacao td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabela-pontuacao th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#tabela-pontuacao tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #f70000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#iframe3{
+
+    position: relative; 
+    width: 0; 
+    height: 100%; 
+    padding-top: 56.2500%;
+    padding-bottom: 0; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;   
+    width: 760px; 
+    height: 400px; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0
+}
+
+#iframe4{
+
+    position: relative; 
+    width: 0; 
+    height: 100%; 
+    padding-top: 56.2500%;
+    padding-bottom: 0; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;   
+    width: 760px; 
+    height: 400px; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0
+    
+}
+
+
+#iframe3, #iframe4{
+ 
+    display: inline;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+
+}
+
+
+#iframe3, #iframe6 {
+    background-color: #4caf50;
+    color: white; 
+    
+}
+
+#iframe4, #iframe7 {
+    background-color: #ad2424; 
+    color: white; 
+    
+}
+.slide{
+    display: none;
+}
+
+#main2jogo1{
+    color: #000a29;
+}
+
+#h1h{
+    color: #f9be62;
+}
+
+#h2t{
+
+    font-family : 'ArcadeClassic';
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 5px solid #000000; 
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+
+tr:first-child th {
+    background-color: #4d68ff; 
+    color: #ffffff; 
+}
+
+
+tr:last-child td {
+    border-bottom: 5px solid #000000; 
+}
+
+
+tr td:first-child {
+    background-color: #000000; 
+}
+
+
+tr td:last-child {
+    background-color: #4d68ff;
+}
+
+label{
+    color: white;
+}
+#bodyindex{
+    background-image: url('https://i.pinimg.com/originals/48/37/23/483723e0f94bd43ef7b9716aa0d3ce86.gif');
+    background-repeat: no-repeat;
+    font-family: 'arcade gamer';
+    
+}
+#aindex{
+   
+   background: #1e3000;  
+}
+#navindex{
+    background: #2e1b5b;
+
+}
+li{
+    color: #002912;
+}
+#jogo2fundo{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-mistico-de-pixel-art_52683-87349.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697068800&semt=ais);
+
+}
+#jogo1fundo{
+    background-image: url('https://img.freepik.com/vetores-premium/ai-gerado-ai-generativo-jogo-de-8-bits-pixel-art-galaxia-espaco-paisagem-vintage-2d-videogame-nivel-design-ativo-cena-de-vetor-de-jogo-de-pixel-indie-ou-fundo-de-jogo-retro-com-paisagem-de-planeta-espacial_8071-54906.jpg?w=826');
+   
+}
+#mainindex, #mainjogo3{
+    background: #000a29;
+    font-family: 'arcade gamer';
+}
+#h1index{
+    font-family: 'arcade gamer';
+}
+#headerindex{
+    background: #000a29;
+    font-family: 'arcade gamer';
+    
+    
+}
+#footerindex{
+    background: #000a29;
+}
+h3, p, #aindex, #h2index{
+    color: rgb(244, 255, 87);
+}
+
+#body1{
+    background-image: url('https://i.pinimg.com/originals/6a/c1/86/6ac18601b9c0e603a63291a5b58d3e0f.gif');
+}
+#head3{
+    background-color: #000000;
+}
+#header3, #footer3{
+    background-color: #000a29;
+}
+#nav3{
+    background-color: #4d68ff;
+}
+#bodyjogo3fundo{
+    background-image: url('https://i.pinimg.com/originals/48/37/23/483723e0f94bd43ef7b9716aa0d3ce86.gif');
+    
+}
+#iframe5, #iframe6, #iframe7{
+    position: relative; 
+    width: 100%; 
+    height: 0; 
+    padding-top: 56.2500%;
+    padding-bottom: 0; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform; 
+    width: 760px; 
+    height: 400px; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0;
+}
+#jogo3fundo{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7062aac2-3efd-42e0-a1dd-a998f9295b4d/dftfcsb-21195317-d29c-48f2-9740-9f87c940821f.png/v1/fit/w_385,h_535,q_70,strp/area_restrita__restrict_area__by_interprete_me_dftfcsb-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTM1IiwicGF0aCI6IlwvZlwvNzA2MmFhYzItM2VmZC00MmUwLWExZGQtYTk5OGY5Mjk1YjRkXC9kZnRmY3NiLTIxMTk1MzE3LWQyOWMtNDhmMi05NzQwLTlmODdjOTQwODIxZi5wbmciLCJ3aWR0aCI6Ijw9Mzg1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.cT-eDYn30itxwY5X5NxEKXbLEOKWK5N96EwV2rA8RNI');
+    background-position-y: 170px;
+    background-position-x: 220px;
+}
+
+
+#h3jogo3{
+    font-size: 15px;
+}
+#jogo3fundopreto{
+    background-color: #000000;
+}
+#bodyjogo3fundo{
+    background-color: #000000;
+}
